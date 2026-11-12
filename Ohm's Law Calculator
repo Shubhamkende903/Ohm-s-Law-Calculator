@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float voltage, current, resistance;
+
+    printf("Enter Current (Ampere): ");
+    scanf("%f", &current);
+
+    printf("Enter Resistance (Ohm): ");
+    scanf("%f", &resistance);
+
+    voltage = current * resistance;
+
+    printf("Voltage = %.2f Volt", voltage);
+
+    return 0;
+}
